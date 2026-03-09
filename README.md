@@ -1,58 +1,38 @@
-# 🚀 SPEEDMATH - FURTUNALABS EDITION 🌌
-### "The ultimate cognitive duel. Solve or be deleted."
+# SpeedMath - FurtunaLabs
 
-![SpeedMath Banner](https://img.shields.io/badge/FurtunaLabs-Authorized-magenta?style=for-the-badge&logo=rocket)
-![Version](https://img.shields.io/badge/Version-1.0.0--Elite-cyan?style=for-the-badge)
-![Status](https://img.shields.io/badge/Operational-100%25-green?style=for-the-badge)
+**SpeedMath** este un duel rapid de matematică creat pentru a testa reflexele și precizia. Cine calculează mai repede câștigă, cine nu, rămâne cu mocking-ul lui Einstein.
 
 ---
 
-## ⚡ MISSION OVERVIEW
-**SpeedMath** is not just a game; it's a high-octane arithmetic arena engineered by **FurtunaLabs**. It forces two pilots into a head-to-head collision of logic and reflexes. Developed in C# WinForms, this is where the fastest minds come to claim dominance and the slow ones come to be mocked by Einstein himself.
+## ⚡ Cum funcționează?
+* **Viteză pură:** Fiecare secundă contează.
+* **Fără greșeli:** Dacă răspunzi greșit, adversarul primește punctul automat.
+* **Scor final:** Primul care ajunge la **10 puncte** câștigă duelul.
 
 ---
 
-## 🛰️ CORE PROTOCOLS
-* **SONIC SPEED:** Every millisecond counts. If you blink, you're done.
-* **ABSOLUTE PRECISION:** A wrong answer doesn't just lose you the point—it gives it to your enemy.
-* **THE RANK 10 RULE:** The first pilot to reach 10 points claims the sector.
+## 🕹️ Controale (1 vs 1)
+
+| Jucător | Taste |
+| :--- | :--- |
+| **Jucător 1** | `A` `S` `D` |
+| **Jucător 2** | `←` `↓` `→` |
 
 ---
 
-## 🕹️ BATTLE STATIONS (CONTROLS)
+## 🛠️ Instalare & Rulare
+Proiectul este dezvoltat în **C# WinForms**. Pentru a-l rula:
 
-| PLAYER | MOVEMENT / ACTION | KEYS |
-| :--- | :--- | :--- |
-| **PILOT 01** | Arithmetic Inputs | `A` | `S` | `D` |
-| **PILOT 02** | Arithmetic Inputs | `←` | `↓` | `→` |
-
----
-
-## 🛠️ INSTALLATION & DEPLOYMENT
-If you think your hardware can handle the power of **FurtunaLabs** engineering, follow these steps:
-
-1.  **Clone the sector:**
-    ```bash
-    git clone [https://github.com/denis-furtuna/SpeedMath.git](https://github.com/denis-furtuna/SpeedMath.git)
-    ```
-2.  **Navigate to the hangar:**
-    `cd SpeedMath/proiect/bin/Debug`
-3.  **Execute the mission:**
-    Run `SpeedMath.exe` and prepare for combat.
+1. Descarcă arhiva proiectului.
+2. Intră în `proiect/bin/Debug`.
+3. Rulează fișierul `SpeedMath.exe`.
 
 ---
 
-## 🖼️ VISUAL INTERFACE
-Check out our official tactical portal:
-👉 [**SPEEDMATH GALACTIC SITE**](https://denis-furtuna.github.io/SpeedMath/)
+## 🌐 Pagina Oficială
+Poți vedea prezentarea jocului aici:
+👉 [**Site SpeedMath**](https://denis-furtuna.github.io/SpeedMath/)
 
 ---
 
-## 👨‍🔬 THE CREATOR
-Engineered with absolute dominance by **Denis Furtuna** at **FurtunaLabs Intergalactic**.
-
-> "Still too slow? Revise your limits!" - *Incoming Transmission*
-
----
-
-© 2026 **FURTUNALABS**. ALL SYSTEMS OPERATIONAL. 🚀
+© 2026 **FurtunaLabs**. Toate drepturile rezervate.
