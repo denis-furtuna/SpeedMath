@@ -5,57 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpeedMath | FurtunaLabs Elite</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="fade-in">
+    <div class="stars-bg"></div>
+    <div class="ambient-glow"></div>
     <div class="scanlines"></div>
 
-    <nav class="glass-nav">
-        <div class="nav-content">
-            <span class="nav-logo">FURTUNA<span>LABS</span></span>
-            <div class="nav-links">
-                <a href="#features" class="nav-item">MISSION</a>
-                <a href="#controls" class="nav-item">BATTLE STATION</a>
-                <a href="#download" class="nav-btn-neon">GET APP</a>
+    <nav class="premium-nav">
+        <div class="nav-wrapper">
+            <span class="brand-logo">FURTUNA<span>LABS</span></span>
+            <div class="nav-items">
+                <a href="#protocols" class="nav-link">Mission</a>
+                <a href="#battlestation" class="nav-link">Battle Station</a>
+                <a href="#download" class="btn-neon-solid">GET APP</a>
             </div>
         </div>
     </nav>
 
-    <header class="hero central-hero">
-        <img src="proiect/bin/Debug/Picsart_23-05-02_08-39-03-243.png" alt="SpeedMath Giant Logo" class="main-logo-giant anim-pulse">
-        
-        <h1 class="glitch-text" data-text="SPEEDMATH">SPEEDMATH</h1>
-
-        <div class="subtitle-integrated-row">
-            <p class="hero-sub">The ultimate cognitive duel. Engineered by **FurtunaLabs** for the fastest minds in the sector. Solve or be deleted.</p>
-            <div class="einstein-integrated-container anim-float">
-                <img src="proiect/bin/Debug/einstein1.png" alt="Einstein" class="einstein-img-inline">
-                <div class="frame-border"></div>
+    <header class="hero-showcase">
+        <div class="hero-content">
+            <div class="logo-container">
+                <img src="proiect/bin/Debug/Picsart_23-05-02_08-39-03-243.png" alt="SpeedMath Core Logo" class="hero-logo levitate">
             </div>
-        </div>
-
-        <div class="hero-actions-centered">
-            <a href="#download" class="btn-neon-magenta">DOWNLOAD</a>
-            <a href="#features" class="btn-neon-cyan">MISSION RULES</a>
+            
+            <div class="mission-briefing">
+                <div class="text-column">
+                    <h1 class="hidden-title">SPEEDMATH</h1>
+                    <p class="hero-lead">The ultimate cognitive duel. Engineered by <span class="highlight">FurtunaLabs</span> for the fastest minds in the sector. Solve or be deleted.</p>
+                    
+                    <div class="action-cluster">
+                        <a href="#download" class="btn-cyber-primary">DOWNLOAD</a>
+                        <a href="#protocols" class="btn-cyber-secondary">MISSION RULES</a>
+                    </div>
+                </div>
+                
+                <div class="visual-column">
+                    <div class="einstein-hologram levitate-delay">
+                        <img src="proiect/bin/Debug/einstein1.png" alt="Einstein Hologram" class="einstein-asset">
+                        <div class="holo-border"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
-    <section id="features" class="mission-outer">
-        <div class="mission-frame">
-            <h2 class="section-header">MISSION PROTOCOLS</h2>
-            <div class="grid-container">
-                <div class="card reveal">
-                    <div class="card-icon">⚡</div>
+    <section id="protocols" class="glass-module">
+        <div class="module-core">
+            <h2 class="cyber-heading">MISSION PROTOCOLS</h2>
+            <div class="bento-grid">
+                <div class="bento-card">
+                    <div class="card-glow"></div>
+                    <span class="cyber-icon">⚡</span>
                     <h3>SONIC SPEED</h3>
                     <p>Milliseconds determine the victor. Reaction is everything in this sector.</p>
                 </div>
-                <div class="card reveal">
-                    <div class="card-icon">🎯</div>
+                <div class="bento-card">
+                    <div class="card-glow"></div>
+                    <span class="cyber-icon">🎯</span>
                     <h3>ZERO ERROR</h3>
                     <p>One mistake and your opponent steals the glory. Stay sharp.</p>
                 </div>
-                <div class="card reveal">
-                    <div class="card-icon">🏆</div>
+                <div class="bento-card">
+                    <div class="card-glow"></div>
+                    <span class="cyber-icon">🏆</span>
                     <h3>RANK 10</h3>
                     <p>First pilot to reach 10 points wins the sector and eternal fame.</p>
                 </div>
@@ -63,42 +76,48 @@
         </div>
     </section>
 
-    <section id="controls" class="controls-outer">
-        <div class="hud-frame">
-            <div class="hud-header">SYSTEM_CONTROLS_V2.0</div>
-            <div class="hud-content">
-                <div class="p-unit">
-                    <span class="p-label">PILOT_01</span>
-                    <div class="key-group">
-                        <span class="k-box">A</span>
-                        <span class="k-box">S</span>
-                        <span class="k-box">D</span>
+    <section id="battlestation" class="glass-module">
+        <div class="hud-interface">
+            <div class="hud-top-bar">
+                <span class="hud-status">SYSTEM_CONTROLS_V2.0</span>
+                <span class="hud-online">● ONLINE</span>
+            </div>
+            <div class="hud-arena">
+                <div class="pilot-deck deck-left">
+                    <span class="pilot-id">PILOT_01</span>
+                    <div class="keypad">
+                        <kbd class="key-cap">A</kbd>
+                        <kbd class="key-cap">S</kbd>
+                        <kbd class="key-cap">D</kbd>
                     </div>
                 </div>
-                <div class="vs-divider">VS</div>
-                <div class="p-unit">
-                    <span class="p-label">PILOT_02</span>
-                    <div class="key-group">
-                        <span class="k-box">←</span>
-                        <span class="k-box">↓</span>
-                        <span class="k-box">→</span>
+                
+                <div class="arena-divider">VS</div>
+                
+                <div class="pilot-deck deck-right">
+                    <span class="pilot-id">PILOT_02</span>
+                    <div class="keypad">
+                        <kbd class="key-cap">←</kbd>
+                        <kbd class="key-cap">↓</kbd>
+                        <kbd class="key-cap">→</kbd>
                     </div>
                 </div>
             </div>
-            <div class="hud-footer">
-                <span class="typing-text">> MAP YOUR KEYBOARD. PREPARE FOR DUEL.</span>
+            <div class="hud-console">
+                <span class="terminal-text">> MAP YOUR KEYBOARD. PREPARE FOR DUEL_</span>
             </div>
         </div>
     </section>
 
-    <footer id="download">
-        <div class="footer-wrap">
-            <h2 class="ready-text">READY FOR COMBAT?</h2>
-            <a href="https://github.com/denis-furtuna/SpeedMath/archive/refs/heads/main.zip" class="final-download anim-play-btn">
-                <img src="proiect/bin/Debug/Picsart_23-05-02_09-33-50-436.png" alt="Launch Game">
+    <footer id="download" class="footer-command">
+        <div class="launch-sequence">
+            <h2 class="cyber-heading">READY FOR COMBAT?</h2>
+            <a href="https://github.com/denis-furtuna/SpeedMath/archive/refs/heads/main.zip" class="launch-button">
+                <img src="proiect/bin/Debug/Picsart_23-05-02_09-33-50-436.png" alt="Initiate Launch">
+                <div class="launch-glow"></div>
             </a>
-            <div class="brand-footer">
-                <p>&copy; 2026 **FURTUNALABS INTERGALACTIC**. ALL SYSTEMS OPERATIONAL.</p>
+            <div class="footer-branding">
+                <p>&copy; 2026 <strong>FURTUNALABS INTERGALACTIC</strong>. ALL SYSTEMS OPERATIONAL.</p>
             </div>
         </div>
     </footer>
